@@ -6,7 +6,7 @@ function Home() {
     return (
         <div className="home-div">
             <div className="welcome-div">
-                <h2>Welcome to Anime Finder!</h2>
+                <h2>Welcome to Anime Quote Finder!</h2>
 
             </div>
         </div>

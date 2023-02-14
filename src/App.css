@@ -12,29 +12,36 @@ html {
 .nav {
   background: black;
   background-color: black;
-  height: 50px;
 }
 
-div {
-  background: linear-gradient(50deg, purple, white) fixed;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  min-width: 100%;
-  min-height: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+h2, h3, h4, h5, p {
+  background: transparent;
+  text-align: center;
 }
+
+button {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  padding-left: 50%;
+  width: 50px;
+  text-decoration: solid;
+}
+
+body {
+  background: linear-gradient(50deg, purple, white) fixed;
+  background-size: cover;
+  background-position: 80% 40%;
+}
+
+
 
 .home-div {
-  background: linear-gradient(50deg, purple, white) fixed;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  min-width: 100%;
-  min-height: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  margin: auto;
+  width: 50%;
+  height:50%;
+  text-align: center;
   
 }
 
@@ -57,10 +64,11 @@ div {
   display: inline;
   text-align: center;
   text-shadow: rbga(0, 0, 0, .5) 2px 2px 1px; /* color, x pos, y pos, blur */
-  background-color: black;
+  background-color: transparent;
   height: 100%;
   border-radius: 20px;
   width: 250px;
+  margin: 0;
 
 
 }

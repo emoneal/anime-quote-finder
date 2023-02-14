@@ -22,7 +22,7 @@ function Finder() {
                 <h4>{quote.quote}</h4>
                 <h5><em>{quote.character} - {quote.anime}</em></h5>
 
-                <button onClick={handleClick}>New Quote!</button>
+                <button onClick={handleClick}><b>New Quote</b></button>
         </div>
     )
 }

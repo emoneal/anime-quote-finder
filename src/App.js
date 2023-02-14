@@ -10,13 +10,13 @@ function App() {
     <Router>
 
       <nav style={{margin:50}}>
-        <Link to="/" style={{padding: 5}}>
+        <Link to="/" style={{padding: 15}}>
           Home
         </Link>
-        <Link to="/about" style={{padding: 5}}>
+        <Link to="/about" style={{padding: 15}}>
           About
         </Link>
-        <Link to="/Finder" style={{padding: 5}}>
+        <Link to="/Finder" style={{padding: 15}}>
           Finder
         </Link>
       </nav>
